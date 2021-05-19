@@ -1,0 +1,30 @@
+.connect{
+    text-align: center;
+    margin-top: 10%;
+    line-height: 40px;
+}
+.icon li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.purple{
+    color: #cd5ff8;
+}
+.icon{
+    margin-top: 10px;
+} .facebook{
+    color:#3b5998
+}
+.instagram{
+    color: red;
+}
+.twitter{
+    color: skyblue;
+} 
+.github{
+    color:black
+}
+
+   
+
+ 

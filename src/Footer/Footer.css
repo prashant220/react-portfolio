@@ -1,0 +1,43 @@
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #8C2DE3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.social li{
+  
+    padding: 0 15px;
+}
+.purple{
+    color: #cd5ff8;
+}
+.icon{
+    margin-top: 10px;
+} .facebook{
+    color:#3b5998
+}
+.instagram{
+    color: red;
+}
+.twitter{
+    color: skyblue;
+} 
+.github-footer{
+    color:blue
+}
+.design{
+    flex-basis: 1;
+
+}
+.copy{
+    flex-basis: 1;
+}
+.social{
+    flex-basis:1
+}
+
+   
