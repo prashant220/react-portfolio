@@ -9,7 +9,7 @@ import Navbar from './Navbar/Navbar';
 import Login from './Login/Login';
 import SignUp from './Login/SignUp';
 import Footer from './Footer/Footer';
-
+import Protected from './Protected/Protected'
 function App() {
   return (
     
@@ -21,7 +21,7 @@ function App() {
   <Switch>
   <Route exact path="/" component={SignUp}/>
   <Route exact path="/login" component={Login}/>
-
+ {/* <Protected Cmp={Home}/> */}
   <Route exact path="/home" component={Home}/>
      <Route exact path="/about" component={About}/>
      <Route exact path="/project" component={Project}/>

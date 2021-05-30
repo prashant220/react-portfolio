@@ -22,8 +22,7 @@ const Home = (props) => {
     fire.auth().signOut();
     props.history.push("/");
 }
-console.log(fire.auth())
-           
+
       
 
     function run(){
@@ -33,6 +32,7 @@ console.log(fire.auth())
         var select= text[counter];
         var move= select.slice(0,++index);
         var type=document.querySelector(".type-name");
+        // type.textContent=fire.auth().currentUser.displayName
         if(move.length===select.length){
             counter++;
             index=0
